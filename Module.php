@@ -43,12 +43,7 @@ class Module
     }
 
     /**
-     * Create image thumbnail object
-     *
-     * @param  string $filename
-     * @param  array $options
-     * @param  bool $isDataStream
-     * @return type
+     * create image with watermark
      */
     public function output($source, $watermarked_destination = null, $watermark_options = null)
     {
