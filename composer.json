@@ -1,0 +1,38 @@
+{
+    "name": "CleitonAlmeida/watermark",
+    "description": "Insert watermark on your images easily using this module to ZendFramework 2",
+    "type": "library",
+    "keywords": [
+        "watermark", "image", "zf2", "zend", "framework"
+    ],
+    "homepage": "https://github.com/CleitonAlmeida/watermark",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cleiton Almeida",
+            "email": "contato@cleitonalmeida.com.br",
+            "homepage": "http://cleitonalmeida.com.br/",
+            "role": "Developer"
+        },
+        {
+            "name": "Igor Mukhin",
+            "email": "igor.mukhin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "suggest": {
+        "webino/webino-image-thumb": "Image Thumbnailer for Zend Framework."
+    },
+    "autoload": {
+        "psr-0": {
+            "WaterMark": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
