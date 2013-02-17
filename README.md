@@ -7,7 +7,7 @@ Insert watermark on your images easily using this module to ZendFramework 2
 
   Following steps are necessary to get this module working, considering a zf2-skeleton or very similar application:
 
-  1. Run: `php composer.phar cleitonalmeida/watermark:dev-master`
+  1. Run: `php composer.phar require cleitonalmeida/watermark:dev-master`
   2. Add `WaterMark` to the enabled modules list.
 
 ## QuickStart
